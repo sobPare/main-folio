@@ -24,7 +24,8 @@ body {
   background-color: #ecd798;
 }
 .btn {
-  display: block;
   background-color: #ff521b;
-  text-align: center;
+}
+.col-back {
+  background-color: var(--text-color);
 }
