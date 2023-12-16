@@ -1,6 +1,30 @@
+:root {
+  --text-color: #020122;
+  --btn-color: #ff521b;
+}
 h1 {
   font-family: "Bebas Neue", sans-serif;
 }
 h4 {
   font-family: "Raleway", sans-serif;
+}
+h1,
+h4 {
+  color: #020122;
+  text-align: center;
+}
+body {
+  background-color: #f2f3c7;
+}
+.pahl {
+  background-color: #fdae6d;
+  text-align: center;
+}
+.nav {
+  background-color: #ecd798;
+}
+.btn {
+  display: block;
+  background-color: #ff521b;
+  text-align: center;
 }
