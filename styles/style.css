@@ -2,6 +2,29 @@
   --text-color: #020122;
   --btn-color: #ff521b;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+nav li.active a {
+  color: var(--btn-color);
+}
+nav a:hover {
+  color: var(--btn-color);
+}
 h1,
 h2,
 h3 {
@@ -23,6 +46,9 @@ h5 {
 }
 body {
   background-color: #f2f3c7;
+}
+.logo {
+  margin: 16px 0 10px 0;
 }
 .pahl {
   background-color: #fdae6d;
