@@ -40,3 +40,6 @@ body {
 .col-back {
   background-color: var(--text-color);
 }
+.about-section {
+  margin: 26px;
+}
