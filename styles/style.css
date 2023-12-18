@@ -15,14 +15,15 @@ nav li {
   line-height: 30px;
   margin-left: 10px;
 }
-nav a {
-  text-decoration: none;
-  color: var(--text-color);
-}
 nav li.active a {
   color: var(--btn-color);
 }
-nav a:hover {
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 250ms ease-in-out;
+}
+a:hover {
   color: var(--btn-color);
 }
 h1,
@@ -76,14 +77,8 @@ footer {
   margin: 26px;
 }
 .email-link {
-  text-decoration: none;
   display: block;
   text-align: center;
-  color: var(--text-color);
-  transition: all 250ms ease-in-out;
-}
-.email-link:hover {
-  color: var(--btn-color);
 }
 .social-media {
   margin: 6px;
@@ -91,12 +86,6 @@ footer {
 .social-link {
   margin: 6px;
   padding: 13px;
-  color: var(--text-color);
-  text-decoration: none;
-  transition: all 250ms ease-in-out;
-}
-.social-link:hover {
-  color: var(--btn-color);
 }
 .contact-box {
   background-color: #f2f3c7;
